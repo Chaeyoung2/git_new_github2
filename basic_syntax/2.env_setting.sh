@@ -35,7 +35,7 @@ git clone 타인 레포 주소
 
 # 해당 폴더로 이동 후 github 레포주소 변경
 git remote set-url origin 나의 레포 주소
-git push origin main
+git push origin main # push라는 것은 내 로컬 컴퓨터에 저장(.git)된 커밋 이력을 push 하겠다는 거임. clone 했기 때문에 로컬 리포에 커밋 이력이 그대로 있으므로 그대로 add, commit 없이 push 하면 된다.
 
 # 2. 커밋 이력 없이 레포 가져오기
 git clone 타인 레포 주소
@@ -47,4 +47,19 @@ git add .
 git commit -m "first" #.git 폴더 삭제함으로서 커밋 이력이 아예 없다. 최초의 커밋 이력 만들어줌.
 git push origin master
 
+
+# ------------------------------------
+# 사용자 지정 방법
+# 전역적 사용자 (name, email) 지정
+git config --global user.name "유저 네임"
+git config --global user.email "유저 이메일"
+
+# 지역적 사용자 지정
+git config --local user.name "유저 네임"
+git config --local user.email "유저 이메일"
+
+# 사용자 정보 조회
+git config user.name
+git config user.email
+git config --list
 
