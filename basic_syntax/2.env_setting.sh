@@ -63,3 +63,10 @@ git config user.name
 git config user.email
 git config --list
 
+
+# ------------------------------------
+# git ignore
+
+# 특정 파일을 git 추적 목록에서 제외시키고 싶다면 .gitignore 파일에 파일 목록 등록
+# 이미 add, commit 되어 버린 파일을 추적 목록에서 제외하고 싶다면 키 값을 변경시킨다. 파일이 트래킹 되기 전에 제외시키거나.
+git rm -r --cached .
