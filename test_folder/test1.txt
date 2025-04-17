@@ -16,8 +16,3 @@ hello world python3
 hello world javascript
 hello world java
 hello world sss
-<<<<<<< Updated upstream
-=======
-hello world10hello world2
-
->>>>>>> Stashed changes
