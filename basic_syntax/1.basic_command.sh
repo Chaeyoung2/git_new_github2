@@ -98,5 +98,25 @@ git stash pop
 # 임시 저장한 목록을 꺼내지 않고 그대로 놔둔 채, 특정 indx 항목만 적용 가능
 git stash apply 인덱스번호
 
-# 임시 저장한 작업 목록 내용 조회
+# 임시 저장한 작업 내용 조회
 git stash show -p 인덱스번호
+
+# 임시 저장한 작업 목록 조회
+git stash list
+
+# 저장 목록 모두 삭제
+git stash clear
+
+
+# ---------------------------------
+
+# 버전 명시
+git tag v1.0
+git tag -a v1.0 -m "1.주요사항A  2.주요사항B"
+
+# tag release 배포
+# commit push와는 별개로 태그(버전)를 push 한다.
+git push origin v1.0
+
+# 태그 목록 조회
+git tag
