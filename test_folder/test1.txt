@@ -6,10 +6,6 @@ hello world C++
 hello world javascript
 hello world3
 hello world spring
-origin main 수정
-hello world spring2
-hello world spring3
-hello world javascript
 hello world spring4
 hello world java3
 hello world python3
