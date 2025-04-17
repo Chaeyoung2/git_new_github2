@@ -16,4 +16,8 @@ hello world python3
 hello world javascript
 hello world java
 hello world sss
+<<<<<<< Updated upstream
 hello world for collide
+=======
+hello world for stash
+>>>>>>> Stashed changes

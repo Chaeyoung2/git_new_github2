@@ -94,3 +94,9 @@ git stash
 
 # 저장한 최신의 작업 목록을 꺼내기
 git stash pop
+
+# 임시 저장한 목록을 꺼내지 않고 그대로 놔둔 채, 특정 indx 항목만 적용 가능
+git stash apply 인덱스번호
+
+# 임시 저장한 작업 목록 내용 조회
+git stash show -p 인덱스번호
