@@ -47,4 +47,26 @@ git log -all
 git push origin main --force
 
 
+# --------------------------------
+
+# 특정 commit ID로의 전환 (소스 코드를 과거의 특정 버전으로 되돌린다)
+git checkout 커밋ID
+
+# 다시 현재 브랜치의 commit으로 되돌아올 때
+git checkout 현재브랜치명(main 또는 master)
+
+
+
+# --------------------------------
+
+# git pull은 원격의 변경 사항을 local로 내려 받는 것 (working directory까지 반영)
+# git pull = git fetch + git merge
+git pull origin 브랜치명
+
+
+# 원격의 변경 사항을 local에 가져오되, 병합은 하지 않는 것
+git fetch origin main
+
+# A 기준으로 B와 다른 점을 나타낸다.
+git diff A B
 
