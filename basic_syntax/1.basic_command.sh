@@ -84,3 +84,13 @@ git reset --soft head~1
 # push 이후의 취소 -> commit 메시지 작성 vi 화면으로 이동 -> shift+ :wq
 git revert 기존커밋ID
 
+
+# --------------------------------
+
+# 충돌 상황
+
+# 작업 중인 사항을 임시 저장
+git stash
+
+# 저장한 최신의 작업 목록을 꺼내기
+git stash pop
